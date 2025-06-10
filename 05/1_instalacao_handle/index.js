@@ -7,6 +7,7 @@ const hbs = exphbs.create({
   partialsDir: ["views/partials/"],
 });
 
+app.use(express.static("public"));
 
 app.engine('handlebars', hbs.engine);
 
