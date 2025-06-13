@@ -3,9 +3,16 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+  background-image: url(https://snohetta.imgix.net/oa/bibliotheca-alexandrina/201001_OS_N148_webimageland.jpg?auto=compress%2Cformat&crop=focalpoint&cs=srgb&fit=crop&fp-x=0.5&fp-y=0.5&h=922&q=70&w=1250&s=502b0fc17c38c5372a10ac76098854fb);
+  background-size: cover;
+  background-position: center;    
+  background-repeat: no-repeat;  
+  height: 100vh;                  
+  margin: 0;  
+}
 #navbar {
-  border-bottom: 1px solid #ccc;
+  /* border-bottom: 1px solid #ccc; */
   padding: 1em;
   margin-bottom: 1em;
 }
@@ -16,7 +23,16 @@
 }
 
 #navbar ul li {
-  margin-left: 1em;
+  margin: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: whitesmoke;
+  border: 0 solid;
+  border-radius: 8px;
+  text-align: center;
+  height: 20px;
+  width: 100px;
+  background: linear-gradient(to bottom, #95d15c, #58b86d, #1da386);
 }
 
 h1 {
@@ -24,9 +40,18 @@ h1 {
   margin-bottom: 1em;
 }
 
+h1 {
+  font-size: 2.7em; 
+  font-weight: bold; 
+  color: #2E8B57; 
+  text-shadow: 4px 4px 6px #1da386(0, 0, 0, 0.9); 
+  letter-spacing: 2px; 
+  text-transform: uppercase; 
+}
 .form {
   width: 450px;
   margin: 0 auto;
+  color: #228B22;
 }
 
 .form-control {
@@ -77,4 +102,16 @@ h1 {
 
 .actions a {
   margin-right: 1em;
+}
+
+.btn {
+  font-size: 15px;
+  font-weight: bold;
+  color: whitesmoke;
+  border: 0 solid;
+  border-radius: 8px;
+  text-align: center;
+  height: 20px;
+  width: 105px;
+  background: linear-gradient(to bottom, #95d15c, #58b86d, #1da386);
 }
